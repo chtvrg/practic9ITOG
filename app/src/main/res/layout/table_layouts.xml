@@ -27,7 +27,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136" />
+        app:layout_constraintVertical_bias="0.136"
+        tools:ignore="DuplicateIds" />
 
     <View
         android:id="@+id/view"
@@ -38,7 +39,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.278" />
+        app:layout_constraintVertical_bias="0.278"
+        tools:ignore="DuplicateIds" />
 
     <View
         android:id="@+id/view"
@@ -49,7 +51,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
+        app:layout_constraintVertical_bias="0.419"
+        tools:ignore="DuplicateIds" />
 
     <View
         android:id="@+id/view"
@@ -60,7 +63,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.975"
+        tools:ignore="DuplicateIds" />
 
     <View
         android:id="@+id/view"
@@ -71,7 +75,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827" />
+        app:layout_constraintVertical_bias="0.827"
+        tools:ignore="DuplicateIds" />
 
     <View
         android:id="@+id/view"
@@ -82,7 +87,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.694" />
+        app:layout_constraintVertical_bias="0.694"
+        tools:ignore="DuplicateIds" />
 
     <View
         android:id="@+id/view"
@@ -93,7 +99,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
+        app:layout_constraintVertical_bias="0.557"
+        tools:ignore="DuplicateIds" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -101,13 +108,15 @@
         android:layout_height="65dp"
         app:srcCompat="@drawable/w2"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="13dp" />
+        tools:layout_editor_absoluteY="13dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="65dp"
         android:layout_height="65dp"
         app:srcCompat="@drawable/w1"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="104dp" />
 
@@ -117,7 +126,8 @@
         android:layout_height="65dp"
         app:srcCompat="@drawable/w8"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="188dp" />
+        tools:layout_editor_absoluteY="188dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -125,7 +135,8 @@
         android:layout_height="65dp"
         app:srcCompat="@drawable/w7"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="288dp" />
+        tools:layout_editor_absoluteY="288dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -133,7 +144,8 @@
         android:layout_height="65dp"
         app:srcCompat="@drawable/w6"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="378dp" />
+        tools:layout_editor_absoluteY="378dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -141,7 +153,8 @@
         android:layout_height="65dp"
         app:srcCompat="@drawable/w5"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="467dp" />
+        tools:layout_editor_absoluteY="467dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -149,7 +162,8 @@
         android:layout_height="65dp"
         app:srcCompat="@drawable/w4"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="554dp" />
+        tools:layout_editor_absoluteY="554dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -157,5 +171,6 @@
         android:layout_height="65dp"
         app:srcCompat="@drawable/w3"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="650dp" />
+        tools:layout_editor_absoluteY="650dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

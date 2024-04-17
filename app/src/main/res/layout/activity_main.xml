@@ -64,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.696"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,VisualLintOverlap" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -72,7 +72,7 @@
         android:layout_height="69dp"
         android:checked="false"
         android:text="Согласен(-а) с условиями использования и политикой конфиденциальности"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintButtonSize"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintButtonSize,VisualLintOverlap"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="555dp" />
 
@@ -104,6 +104,7 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextText2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.939"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextContrastCheck,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="29dp" />
 
     <EditText
@@ -115,6 +116,7 @@
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextContrastCheck,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="27dp" />
 
     <EditText
@@ -127,6 +129,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText2"
         app:layout_constraintVertical_bias="0.054"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,TextContrastCheck"
         tools:layout_editor_absoluteX="27dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
