@@ -7,170 +7,139 @@
     android:layout_height="match_parent"
     tools:context=".TableLayouts">
 
-    <View
-        android:id="@+id/view"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#B1B4B8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#B1B4B8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136"
-        tools:ignore="DuplicateIds" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:background="#F58A1F"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#B1B4B8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.278"
-        tools:ignore="DuplicateIds" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/w2"
+                tools:ignore="ContentDescription,MissingConstraints" />
+        </TableRow>
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#B1B4B8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419"
-        tools:ignore="DuplicateIds" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:background="#F58A1F"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#B1B4B8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975"
-        tools:ignore="DuplicateIds" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/w1"
+                tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints" />
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#B1B4B8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827"
-        tools:ignore="DuplicateIds" />
+        </TableRow>
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#B1B4B8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.694"
-        tools:ignore="DuplicateIds" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:background="#F58A1F"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#B1B4B8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557"
-        tools:ignore="DuplicateIds" />
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/w8"
+                tools:ignore="ContentDescription,MissingConstraints" />
+        </TableRow>
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/w2"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="13dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:background="#F58A1F"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/w1"
-        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="104dp" />
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/w7"
+                tools:ignore="ContentDescription,MissingConstraints" />
+        </TableRow>
 
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/w8"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="188dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:background="#F58A1F"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/w7"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="288dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/w2"
+                tools:ignore="ContentDescription,MissingConstraints" />
+        </TableRow>
 
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/w6"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="378dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:background="#F58A1F"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
 
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/w5"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="467dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/w1"
+                tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints" />
+        </TableRow>
 
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/w4"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="554dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:background="#F58A1F"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
 
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/w3"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="650dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/w8"
+                tools:ignore="ContentDescription,MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:background="#F58A1F"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/w7"
+                tools:ignore="ContentDescription,MissingConstraints" />
+        </TableRow>
+    </TableLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
